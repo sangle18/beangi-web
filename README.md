@@ -1,5 +1,7 @@
 # Bé Ăn Gì (bản web)
 
+👉 **Mở app: https://sangle18.github.io/beangi-web/**
+
 Trang web gợi ý món ăn cho bé theo tuổi, theo tuần và theo mùa ở Việt Nam. Dùng trên điện thoại như một app: mở bằng Safari → Chia sẻ → **Thêm vào MH chính**.
 
 - Thực đơn theo nhóm tuổi (khuyến nghị WHO 2023, UNICEF Việt Nam, Viện Dinh dưỡng Quốc gia), rau quả theo mùa, danh sách đi chợ.
