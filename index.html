@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="vi" data-size="medium">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; manifest-src 'self'; worker-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
+<meta name="description" content="Gợi ý món ăn cho bé theo tuổi, theo tuần và theo mùa">
+<meta name="theme-color" content="#fff8ee">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Bé Ăn Gì">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<title>Bé Ăn Gì</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/png" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="stylesheet" href="style.css?v=3">
+<script type="module" src="app.js?v=3"></script>
+</head>
+<body>
+<header class="topbar">
+  <button class="round" id="btn-settings" aria-label="Cỡ chữ và cài đặt">Aa</button>
+  <h1 id="title">Bé Ăn Gì</h1>
+  <button class="round" id="btn-edit" aria-label="Sửa thông tin bé">✏️</button>
+</header>
+<main id="main" tabindex="-1"><p class="loading">Đang tải…</p></main>
+<nav class="tabbar" aria-label="Chuyển màn hình">
+  <button data-tab="home" aria-current="page"><span aria-hidden="true">🏠</span>Nhà mình</button>
+  <button data-tab="week"><span aria-hidden="true">🍽️</span>Tuần</button>
+  <button data-tab="month"><span aria-hidden="true">🍃</span>Tháng</button>
+  <button data-tab="guide"><span aria-hidden="true">💗</span>Lưu ý</button>
+</nav>
+<dialog id="dlg"></dialog>
+<noscript><p class="loading">Cần bật JavaScript để dùng Bé Ăn Gì.</p></noscript>
+</body>
+</html>

@@ -1,0 +1,805 @@
+{
+ "version": 2,
+ "updatedAt": "2026-11-07",
+ "sources": [
+  {
+   "title": "Hướng dẫn ăn bổ sung cho trẻ 6–23 tháng (2023)",
+   "org": "Tổ chức Y tế Thế giới (WHO)",
+   "url": "https://www.ncbi.nlm.nih.gov/books/NBK596431/"
+  },
+  {
+   "title": "Thực đơn cho con từ 6 đến 12 tháng tuổi",
+   "org": "UNICEF Việt Nam",
+   "url": "https://www.unicef.org/vietnam/vi/thuc-don-cho-con-tu-6-den-12-thang-tuoi"
+  },
+  {
+   "title": "Ăn dặm theo khuyến cáo của Viện Dinh dưỡng Quốc gia",
+   "org": "Vinmec",
+   "url": "https://www.vinmec.com/vie/bai-viet/huong-dan-day-du-ve-an-dam-theo-khuyen-cao-cua-vien-dinh-duong-quoc-gia-vi"
+  },
+  {
+   "title": "Phòng tránh hóc nghẹn cho trẻ nhỏ",
+   "org": "Sở Y tế California (CDPH)",
+   "url": "https://www.cdph.ca.gov/Programs/CFH/DMCAH/NUPA/Pages/Choking-Prevention-for-Young-Children.aspx"
+  }
+ ],
+ "proteins": [
+  {
+   "key": "pork",
+   "name": "Thịt lợn nạc",
+   "shortName": "thịt",
+   "emoji": "🐷",
+   "minMonths": 6,
+   "allergen": false,
+   "isFish": false,
+   "mainDishes": [
+    "Thịt băm rim cà chua",
+    "Thịt viên hấp",
+    "Đậu phụ nhồi thịt sốt cà chua",
+    "Thịt lợn rim nhạt",
+    "Thịt băm hấp trứng"
+   ]
+  },
+  {
+   "key": "chicken",
+   "name": "Thịt gà",
+   "shortName": "gà",
+   "emoji": "🍗",
+   "minMonths": 6,
+   "allergen": false,
+   "isFish": false,
+   "mainDishes": [
+    "Gà om nấm",
+    "Gà rim gừng nhạt",
+    "Gà xé xào rau củ",
+    "Chả gà hấp",
+    "Gà sốt bí đỏ"
+   ]
+  },
+  {
+   "key": "beef",
+   "name": "Thịt bò",
+   "shortName": "bò",
+   "emoji": "🥩",
+   "minMonths": 6,
+   "allergen": false,
+   "isFish": false,
+   "mainDishes": [
+    "Bò băm sốt cà chua",
+    "Bò xào súp lơ (thái nhỏ)",
+    "Bò viên hấp",
+    "Bò kho mềm nhạt",
+    "Bò hầm khoai tây cà rốt"
+   ]
+  },
+  {
+   "key": "salmon",
+   "name": "Cá hồi",
+   "shortName": "cá hồi",
+   "emoji": "🍣",
+   "minMonths": 6,
+   "allergen": true,
+   "isFish": true,
+   "mainDishes": [
+    "Cá hồi áp chảo",
+    "Cá hồi sốt cà chua",
+    "Cá hồi hấp gừng",
+    "Chả cá hồi"
+   ]
+  },
+  {
+   "key": "snakehead",
+   "name": "Cá quả (cá lóc)",
+   "shortName": "cá quả",
+   "emoji": "🐟",
+   "minMonths": 6,
+   "allergen": true,
+   "isFish": true,
+   "mainDishes": [
+    "Cá quả kho nhạt (gỡ xương)",
+    "Chả cá quả hấp",
+    "Cá quả sốt cà chua"
+   ]
+  },
+  {
+   "key": "shrimp",
+   "name": "Tôm",
+   "shortName": "tôm",
+   "emoji": "🦐",
+   "minMonths": 7,
+   "allergen": true,
+   "isFish": false,
+   "mainDishes": [
+    "Tôm rim nhạt (bóc vỏ, cắt nhỏ)",
+    "Trứng hấp tôm",
+    "Tôm viên hấp",
+    "Tôm xào bí xanh"
+   ]
+  },
+  {
+   "key": "egg",
+   "name": "Trứng gà",
+   "shortName": "trứng",
+   "emoji": "🥚",
+   "minMonths": 6,
+   "allergen": true,
+   "isFish": false,
+   "mainDishes": [
+    "Trứng hấp vân",
+    "Trứng chiên rau củ",
+    "Trứng đúc thịt",
+    "Trứng cuộn cà rốt"
+   ]
+  },
+  {
+   "key": "tofu",
+   "name": "Đậu phụ",
+   "shortName": "đậu phụ",
+   "emoji": "🧈",
+   "minMonths": 6,
+   "allergen": false,
+   "isFish": false,
+   "mainDishes": [
+    "Đậu phụ sốt cà chua",
+    "Đậu non hấp thịt",
+    "Đậu phụ rán mềm"
+   ]
+  },
+  {
+   "key": "crab",
+   "name": "Cua đồng",
+   "shortName": "cua",
+   "emoji": "🦀",
+   "minMonths": 9,
+   "allergen": true,
+   "isFish": false,
+   "mainDishes": [
+    "Chả cua hấp trứng",
+    "Cua đồng xay nấu đậu phụ"
+   ]
+  },
+  {
+   "key": "mackerel",
+   "name": "Cá thu",
+   "shortName": "cá thu",
+   "emoji": "🐠",
+   "minMonths": 9,
+   "allergen": true,
+   "isFish": true,
+   "mainDishes": [
+    "Cá thu sốt cà chua (gỡ xương)",
+    "Cá thu áp chảo"
+   ]
+  },
+  {
+   "key": "eel",
+   "name": "Lươn",
+   "shortName": "lươn",
+   "emoji": "🐟",
+   "minMonths": 12,
+   "allergen": false,
+   "isFish": true,
+   "mainDishes": [
+    "Lươn xào nấm (gỡ xương)",
+    "Lươn kho nghệ nhạt (gỡ xương)"
+   ]
+  }
+ ],
+ "liver": {
+  "key": "liver",
+  "name": "Gan gà",
+  "shortName": "gan gà",
+  "emoji": "🍖",
+  "minMonths": 6,
+  "allergen": false,
+  "isFish": false,
+  "mainDishes": [
+   "Gan gà xào cà chua (thái nhỏ)",
+   "Gan gà rim nhạt (thái nhỏ)"
+  ]
+ },
+ "vegetables": {
+  "bi_do": {
+   "name": "bí đỏ",
+   "emoji": "🎃",
+   "soup": "Canh bí đỏ",
+   "sideDish": "Bí đỏ hấp"
+  },
+  "ca_rot": {
+   "name": "cà rốt",
+   "emoji": "🥕",
+   "soup": "Canh cà rốt khoai tây",
+   "sideDish": "Cà rốt luộc"
+  },
+  "cai_ngot": {
+   "name": "cải ngọt",
+   "emoji": "🥬",
+   "soup": "Canh cải ngọt",
+   "sideDish": "Cải ngọt luộc"
+  },
+  "su_hao": {
+   "name": "su hào",
+   "emoji": "🥬",
+   "soup": "Canh su hào",
+   "sideDish": "Su hào luộc"
+  },
+  "bap_cai": {
+   "name": "bắp cải",
+   "emoji": "🥬",
+   "soup": "Canh bắp cải",
+   "sideDish": "Bắp cải luộc"
+  },
+  "sup_lo_xanh": {
+   "name": "súp lơ xanh",
+   "emoji": "🥦",
+   "soup": "Canh súp lơ",
+   "sideDish": "Súp lơ xanh luộc"
+  },
+  "sup_lo_trang": {
+   "name": "súp lơ trắng",
+   "emoji": "🥦",
+   "soup": "Canh súp lơ",
+   "sideDish": "Súp lơ trắng xào"
+  },
+  "khoai_tay": {
+   "name": "khoai tây",
+   "emoji": "🥔",
+   "soup": "Canh khoai tây cà rốt",
+   "sideDish": "Khoai tây nghiền"
+  },
+  "khoai_lang": {
+   "name": "khoai lang",
+   "emoji": "🍠",
+   "soup": "Canh khoai lang",
+   "sideDish": "Khoai lang hấp"
+  },
+  "khoai_so": {
+   "name": "khoai sọ",
+   "emoji": "🥔",
+   "soup": "Canh khoai sọ",
+   "sideDish": "Khoai sọ hấp"
+  },
+  "dau_ha_lan": {
+   "name": "đậu Hà Lan",
+   "emoji": "🫛",
+   "soup": "Súp đậu Hà Lan",
+   "sideDish": "Đậu Hà Lan xào ngô"
+  },
+  "rau_ngot": {
+   "name": "rau ngót",
+   "emoji": "🌿",
+   "soup": "Canh rau ngót",
+   "sideDish": "Rau ngót luộc"
+  },
+  "mong_toi": {
+   "name": "mồng tơi",
+   "emoji": "🌿",
+   "soup": "Canh mồng tơi",
+   "sideDish": "Mồng tơi luộc"
+  },
+  "rau_den": {
+   "name": "rau dền",
+   "emoji": "🌿",
+   "soup": "Canh rau dền",
+   "sideDish": "Rau dền luộc"
+  },
+  "muop": {
+   "name": "mướp",
+   "emoji": "🥒",
+   "soup": "Canh mướp",
+   "sideDish": "Mướp xào"
+  },
+  "bi_xanh": {
+   "name": "bí xanh",
+   "emoji": "🥒",
+   "soup": "Canh bí xanh",
+   "sideDish": "Bí xanh luộc"
+  },
+  "bau": {
+   "name": "bầu",
+   "emoji": "🥒",
+   "soup": "Canh bầu",
+   "sideDish": "Bầu luộc"
+  },
+  "cu_den": {
+   "name": "củ dền",
+   "emoji": "🥕",
+   "soup": "Canh củ dền khoai tây",
+   "sideDish": "Củ dền hấp"
+  },
+  "ca_chua": {
+   "name": "cà chua",
+   "emoji": "🍅",
+   "soup": "Canh cà chua trứng",
+   "sideDish": "Cà chua xào trứng"
+  }
+ },
+ "vegetablesByMonth": [
+  [
+   "cai_ngot",
+   "su_hao",
+   "ca_rot",
+   "bap_cai",
+   "sup_lo_xanh",
+   "khoai_tay"
+  ],
+  [
+   "cai_ngot",
+   "sup_lo_xanh",
+   "ca_rot",
+   "dau_ha_lan",
+   "bi_do",
+   "khoai_tay"
+  ],
+  [
+   "bi_do",
+   "rau_ngot",
+   "ca_rot",
+   "cai_ngot",
+   "khoai_lang",
+   "dau_ha_lan"
+  ],
+  [
+   "bi_do",
+   "rau_ngot",
+   "mong_toi",
+   "muop",
+   "bi_xanh",
+   "khoai_lang"
+  ],
+  [
+   "mong_toi",
+   "rau_den",
+   "muop",
+   "bi_xanh",
+   "bau",
+   "bi_do",
+   "ca_chua"
+  ],
+  [
+   "mong_toi",
+   "rau_den",
+   "muop",
+   "bau",
+   "bi_xanh",
+   "ca_rot",
+   "ca_chua"
+  ],
+  [
+   "mong_toi",
+   "rau_den",
+   "muop",
+   "bau",
+   "bi_xanh",
+   "rau_ngot"
+  ],
+  [
+   "rau_ngot",
+   "bi_do",
+   "bau",
+   "muop",
+   "rau_den",
+   "khoai_so"
+  ],
+  [
+   "bi_do",
+   "rau_ngot",
+   "ca_rot",
+   "khoai_so",
+   "bi_xanh",
+   "cai_ngot"
+  ],
+  [
+   "cai_ngot",
+   "bi_do",
+   "ca_rot",
+   "su_hao",
+   "khoai_tay",
+   "sup_lo_trang"
+  ],
+  [
+   "su_hao",
+   "bap_cai",
+   "sup_lo_xanh",
+   "ca_rot",
+   "cai_ngot",
+   "khoai_tay",
+   "ca_chua"
+  ],
+  [
+   "su_hao",
+   "bap_cai",
+   "sup_lo_xanh",
+   "ca_rot",
+   "cai_ngot",
+   "cu_den",
+   "ca_chua"
+  ]
+ ],
+ "fruits": {
+  "chuoi": {
+   "name": "chuối",
+   "emoji": "🍌",
+   "soft": true,
+   "choking": false
+  },
+  "du_du": {
+   "name": "đu đủ",
+   "emoji": "🍈",
+   "soft": true,
+   "choking": false
+  },
+  "xoai": {
+   "name": "xoài",
+   "emoji": "🥭",
+   "soft": true,
+   "choking": false
+  },
+  "bo": {
+   "name": "bơ",
+   "emoji": "🥑",
+   "soft": true,
+   "choking": false
+  },
+  "dua_hau": {
+   "name": "dưa hấu",
+   "emoji": "🍉",
+   "soft": true,
+   "choking": false
+  },
+  "thanh_long": {
+   "name": "thanh long",
+   "emoji": "🐉",
+   "soft": true,
+   "choking": false
+  },
+  "hong": {
+   "name": "hồng chín mềm",
+   "emoji": "🍑",
+   "soft": true,
+   "choking": false
+  },
+  "na": {
+   "name": "na (bỏ hạt)",
+   "emoji": "🍏",
+   "soft": true,
+   "choking": false
+  },
+  "tao": {
+   "name": "táo (hấp chín cho bé nhỏ)",
+   "emoji": "🍎",
+   "soft": true,
+   "choking": false
+  },
+  "dau_tay": {
+   "name": "dâu tây",
+   "emoji": "🍓",
+   "soft": true,
+   "choking": false
+  },
+  "cam": {
+   "name": "cam",
+   "emoji": "🍊",
+   "soft": false,
+   "choking": false
+  },
+  "quyt": {
+   "name": "quýt",
+   "emoji": "🍊",
+   "soft": false,
+   "choking": false
+  },
+  "buoi": {
+   "name": "bưởi",
+   "emoji": "🍋",
+   "soft": false,
+   "choking": false
+  },
+  "man": {
+   "name": "mận",
+   "emoji": "🍑",
+   "soft": false,
+   "choking": true
+  },
+  "vai": {
+   "name": "vải",
+   "emoji": "🍒",
+   "soft": false,
+   "choking": true
+  },
+  "nhan": {
+   "name": "nhãn",
+   "emoji": "🫐",
+   "soft": false,
+   "choking": true
+  },
+  "chom_chom": {
+   "name": "chôm chôm",
+   "emoji": "🍒",
+   "soft": false,
+   "choking": true
+  },
+  "mang_cut": {
+   "name": "măng cụt",
+   "emoji": "🍇",
+   "soft": false,
+   "choking": true
+  },
+  "oi": {
+   "name": "ổi",
+   "emoji": "🍐",
+   "soft": false,
+   "choking": false
+  }
+ },
+ "fruitsByMonth": [
+  [
+   "chuoi",
+   "cam",
+   "quyt",
+   "buoi",
+   "tao",
+   "dau_tay"
+  ],
+  [
+   "chuoi",
+   "cam",
+   "dau_tay",
+   "thanh_long",
+   "buoi",
+   "tao"
+  ],
+  [
+   "chuoi",
+   "du_du",
+   "thanh_long",
+   "dua_hau",
+   "tao"
+  ],
+  [
+   "chuoi",
+   "du_du",
+   "xoai",
+   "dua_hau",
+   "man"
+  ],
+  [
+   "xoai",
+   "vai",
+   "dua_hau",
+   "chuoi",
+   "du_du"
+  ],
+  [
+   "vai",
+   "nhan",
+   "xoai",
+   "mang_cut",
+   "chuoi",
+   "dua_hau"
+  ],
+  [
+   "nhan",
+   "chom_chom",
+   "mang_cut",
+   "bo",
+   "chuoi",
+   "du_du"
+  ],
+  [
+   "bo",
+   "nhan",
+   "chom_chom",
+   "oi",
+   "chuoi",
+   "du_du"
+  ],
+  [
+   "bo",
+   "buoi",
+   "na",
+   "hong",
+   "chuoi"
+  ],
+  [
+   "hong",
+   "na",
+   "buoi",
+   "cam",
+   "chuoi",
+   "bo"
+  ],
+  [
+   "cam",
+   "quyt",
+   "hong",
+   "buoi",
+   "chuoi",
+   "tao"
+  ],
+  [
+   "cam",
+   "quyt",
+   "tao",
+   "dau_tay",
+   "buoi",
+   "chuoi"
+  ]
+ ],
+ "monthNotes": [
+  "Trời lạnh: ưu tiên món nóng, cháo/súp; rau cải, su hào, súp lơ đang ngon.",
+  "Dịp Tết: bé dễ được cho bánh kẹo, mứt, giò chả mặn. Giữ bữa chính đều đặn, hạn chế đồ ngọt.",
+  "Giao mùa, nồm ẩm: chú ý vệ sinh, nấu chín kỹ, bảo quản đồ ăn trong tủ lạnh.",
+  "Bắt đầu nóng: tăng canh, rau ngót, mồng tơi; cho bé uống đủ nước (từ 6 tháng).",
+  "Nắng nóng: canh mát (mướp, bí, mồng tơi), quả nhiều nước như dưa hấu.",
+  "Mùa vải, nhãn: luôn bỏ hạt, cắt nhỏ; không cho bé ăn quá nhiều đồ ngọt.",
+  "Nắng nóng, mưa nhiều: đồ ăn dễ hỏng, nấu bữa nào ăn bữa đó.",
+  "Mùa bơ: bơ nghiền/sinh tố bơ là món phụ giàu chất béo tốt cho bé.",
+  "Vào thu: bí đỏ, khoai sọ ngon; cho bé thử hồng, na chín mềm.",
+  "Thời tiết dịu: hợp tập cho bé ăn đa dạng, thêm cá 2–3 bữa/tuần.",
+  "Bắt đầu lạnh: súp, cháo nóng; cam, quýt bổ sung vitamin C.",
+  "Lạnh nhất năm: bữa ăn ấm, súp lơ, su hào, củ dền vào mùa."
+ ],
+ "toddlerBreakfasts": [
+  {
+   "name": "Cháo thịt bằm cà rốt",
+   "emoji": "🥣"
+  },
+  {
+   "name": "Phở bò (cắt ngắn sợi, ít nước dùng mặn)",
+   "emoji": "🍜"
+  },
+  {
+   "name": "Bún riêu cua nhạt",
+   "emoji": "🍜"
+  },
+  {
+   "name": "Mì gà nấu mềm",
+   "emoji": "🍜"
+  },
+  {
+   "name": "Súp gà ngô non",
+   "emoji": "🥣"
+  },
+  {
+   "name": "Bánh mì sữa + trứng hấp",
+   "emoji": "🍞"
+  },
+  {
+   "name": "Cháo bí đỏ thịt gà",
+   "emoji": "🥣"
+  },
+  {
+   "name": "Nui nấu bò cà chua",
+   "emoji": "🍝"
+  },
+  {
+   "name": "Cháo cá hồi rau cải",
+   "emoji": "🥣"
+  },
+  {
+   "name": "Yến mạch nấu sữa + chuối",
+   "emoji": "🥣"
+  },
+  {
+   "name": "Cháo trứng cà rốt",
+   "emoji": "🥣"
+  }
+ ],
+ "kidBreakfasts": [
+  {
+   "name": "Phở bò",
+   "emoji": "🍜"
+  },
+  {
+   "name": "Bún riêu cua",
+   "emoji": "🍜"
+  },
+  {
+   "name": "Bún cá",
+   "emoji": "🍜"
+  },
+  {
+   "name": "Cháo sườn",
+   "emoji": "🥣"
+  },
+  {
+   "name": "Bánh cuốn nhân thịt",
+   "emoji": "🥟"
+  },
+  {
+   "name": "Bánh mì trứng ốp la + sữa",
+   "emoji": "🥖"
+  },
+  {
+   "name": "Miến gà",
+   "emoji": "🍜"
+  },
+  {
+   "name": "Súp cua trứng",
+   "emoji": "🥣"
+  },
+  {
+   "name": "Bánh bao nhân thịt + sữa",
+   "emoji": "🥟"
+  },
+  {
+   "name": "Cơm rang trứng rau củ",
+   "emoji": "🍳"
+  },
+  {
+   "name": "Hủ tiếu thịt bằm",
+   "emoji": "🍜"
+  },
+  {
+   "name": "Nui xào bò",
+   "emoji": "🍝"
+  },
+  {
+   "name": "Pancake chuối yến mạch + sữa",
+   "emoji": "🥞"
+  },
+  {
+   "name": "Xôi đỗ xanh (nắm nhỏ, dạy bé nhai kỹ)",
+   "emoji": "🍙"
+  },
+  {
+   "name": "Mì gà nấu rau",
+   "emoji": "🍜"
+  },
+  {
+   "name": "Bánh mì pate trứng + sữa",
+   "emoji": "🥖"
+  }
+ ],
+ "snacks": [
+  {
+   "name": "Sữa chua không đường",
+   "emoji": "🥛"
+  },
+  {
+   "name": "Sữa tươi không đường",
+   "emoji": "🥛"
+  },
+  {
+   "name": "Khoai lang hấp",
+   "emoji": "🍠"
+  },
+  {
+   "name": "Bánh flan ít đường",
+   "emoji": "🍮"
+  },
+  {
+   "name": "Chè đỗ xanh ít đường",
+   "emoji": "🍧"
+  },
+  {
+   "name": "Sinh tố bơ (ít đường)",
+   "emoji": "🥤"
+  },
+  {
+   "name": "Bánh bông lan nhà làm",
+   "emoji": "🍰"
+  },
+  {
+   "name": "Sữa đậu nành nhà làm",
+   "emoji": "🥛"
+  },
+  {
+   "name": "Ngô luộc (bé gặm cả bắp)",
+   "emoji": "🌽"
+  },
+  {
+   "name": "Bánh quy ăn dặm + sữa",
+   "emoji": "🍪"
+  },
+  {
+   "name": "Váng sữa",
+   "emoji": "🥛"
+  }
+ ],
+ "toddlerSkipSnacks": [
+  "Ngô luộc (bé gặm cả bắp)",
+  "Chè đỗ xanh ít đường"
+ ]
+}
